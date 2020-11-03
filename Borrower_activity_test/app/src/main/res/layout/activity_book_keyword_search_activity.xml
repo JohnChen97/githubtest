@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".book_keyword_search_activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="enter a key word">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/enter_key_word">
+
+        </EditText>
+
+        <ListView
+            android:id="@+id/potential_book_list"
+            android:layout_width="wrap_content"
+            android:layout_height="357dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/book_inform"
+            android:layout_width="wrap_content"
+            android:layout_height="131dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:clickable="true"
+            android:hint="Click to view the content"
+            android:visibility="invisible">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true">
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="Back"
+            android:id="@+id/back_button">
+
+        </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>
