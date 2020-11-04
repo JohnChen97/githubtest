@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "315667624001",
+    "firebase_url": "https://labsasaaa.firebaseio.com",
+    "project_id": "labsasaaa",
+    "storage_bucket": "labsasaaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315667624001:android:71c7cf0efa9c217fe756c0",
+        "android_client_info": {
+          "package_name": "com.example.simpleparadox.listycity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315667624001-8clvc68t67n5ra9kog0sfhk946db8vb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI2WYedDr4s_Gl9imUEVV7PfmCmBzf9FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315667624001-8clvc68t67n5ra9kog0sfhk946db8vb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

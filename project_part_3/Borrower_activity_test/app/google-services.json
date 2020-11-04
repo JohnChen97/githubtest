@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "117311258813",
+    "firebase_url": "https://borrower-test.firebaseio.com",
+    "project_id": "borrower-test",
+    "storage_bucket": "borrower-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117311258813:android:a42f52690af5954b47f7d4",
+        "android_client_info": {
+          "package_name": "com.example.borrower_activity_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117311258813-drt71eb74iei5vpsroi314hdio4nnnk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcbin5_gdGTbNY0ITdG3Pit-qa7dxQdh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117311258813-drt71eb74iei5vpsroi314hdio4nnnk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

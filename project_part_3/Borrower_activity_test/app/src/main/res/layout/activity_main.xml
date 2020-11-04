@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/borrower_activity_relative_layout"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true">
+
+    <LinearLayout
+        android:id="@+id/borrower_activity_linear_layout_3"
+        android:layout_width="152dp"
+        android:layout_height="567dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="131dp"
+        android:layout_marginBottom="57dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="153dp"
+            android:layout_height="91dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/borrower_search_book"
+            android:text="Search Book" />
+
+        <Button
+            android:layout_width="153dp"
+            android:layout_height="86dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/borrower_scan_isbn"
+            android:text="Scan ISBN" />
+
+        <Button
+            android:layout_width="153dp"
+            android:layout_height="74dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/borrower_check_requested_list"
+            android:text="Check Requested List" />
+
+        <Button
+            android:layout_width="154dp"
+            android:layout_height="93dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/borrower_user_profile"
+            android:text="User Profile" />
+
+        <Button
+            android:layout_width="153dp"
+            android:layout_height="83dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/borrower_search_user"
+            android:text="Search User" />
+
+        <Button
+            android:layout_width="153dp"
+            android:layout_height="74dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/borrower_activity_back"
+            android:text="Back" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/borrower_activity_linear_layout_3"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="57dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:id="@+id/borrower_activity_linear_layout_1">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:hint="Hi: User Name"
+            android:id="@+id/borrower_hi_user_name"
+            android:textSize="40sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/borrower_activity_linear_layout_3"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/borrower_activity_linear_layout_2">
+
+        <ImageView
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/borrower_bell"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/borrower_have_request"
+            android:hint="You have an accepted request" />
+
+    </LinearLayout>
+
+</RelativeLayout>
